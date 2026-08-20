@@ -208,3 +208,37 @@ body {
     margin: 0.25rem 0 0;
     opacity: 0.7;
 }
+
+/* MOBILE FOOTER */
+
+.site-footer {
+    padding: 2rem 1.25rem;
+
+    background-color: var(--dark-brown);
+    color: white;
+
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0 0 1rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1.25rem;
+}
+
+.footer-links a {
+    color: white;
+
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-links a:hover {
+    opacity: 0.7;
+}
