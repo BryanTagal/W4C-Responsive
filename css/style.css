@@ -172,3 +172,39 @@ body {
     margin: 0;
     line-height: 1.6;
 }
+
+/* MOBILE TESTIMONIAL */
+
+.testimonial {
+    padding: 3rem 1.25rem;
+    background-color: var(--green);
+}
+
+.testimonial-card {
+    max-width: 600px;
+    margin: 0 auto;
+
+    padding: 2rem;
+
+    background-color: var(--cream);
+
+    border-radius: 12px;
+}
+
+.quote {
+    margin: 0 0 1.5rem;
+
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.customer-name {
+    margin: 0;
+    font-weight: 700;
+}
+
+.customer-title {
+    margin: 0.25rem 0 0;
+    opacity: 0.7;
+}
