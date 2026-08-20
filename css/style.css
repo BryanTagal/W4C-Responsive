@@ -1,3 +1,59 @@
+/* COLORS */
+
+:root {
+    --cream: #f5efe6;
+    --brown: #4b2e24;
+    --dark-brown: #2c1b16;
+    --green: #657153;
+}
+
+
+/* BASIC STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* MOBILE HEADER */
+
+.site-header {
+    background-color: var(--brown);
+    padding: 1rem 1.25rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 /* MOBILE HERO */
 
 .hero {
@@ -62,4 +118,57 @@
 
 .hero-image span {
     font-size: 6rem;
+}
+
+/* MOBILE FEATURES */
+
+.features {
+    padding: 3rem 1.25rem;
+    background-color: white;
+}
+
+.features-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features-heading p {
+    margin: 0 0 0.5rem;
+    color: var(--green);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.features-heading h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.feature-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.feature-card {
+    padding: 1.5rem;
+
+    background-color: var(--cream);
+
+    border-radius: 12px;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.3rem;
+}
+
+.feature-card p {
+    margin: 0;
+    line-height: 1.6;
 }
