@@ -517,3 +517,24 @@ button {
     border: none;
     cursor: pointer;
 }
+
+@media (min-width: 768px) {
+
+    .newsletter-form {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .newsletter-form input {
+        flex: 1;
+    }
+
+    .newsletter-form button {
+        width: auto;
+        min-width: 150px;
+    }
+
+}
